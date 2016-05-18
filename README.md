@@ -70,11 +70,11 @@ ViewController Code:
     }
 
 處境1 － 開啟APP
-application(_:didFinishLaunchingWithOptions:)
-viewDidLoad()
-viewWillAppear
-applicationDidBecomeActive
-viewDidAppear
+    application(_:didFinishLaunchingWithOptions:)
+    viewDidLoad()
+    viewWillAppear
+    applicationDidBecomeActive
+    viewDidAppear
 
 順序會是從app delegate -> view controller -> app delegate -> view controller
 
